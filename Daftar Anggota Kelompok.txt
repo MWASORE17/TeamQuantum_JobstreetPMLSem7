@@ -1,0 +1,10 @@
+Daftar anggota kelompok
+141110876 Kevin Fransetio
+141111260 Hen Hen
+141113562 Pan Jerry Eirens Mangsunsong
+141111880 Ferry Julianthio
+
+Nama Kelompok: Quantum
+Kelas: MW-A Sore
+Semester: VI
+Mata Kuliah: Pemrograman Mobile Dasar

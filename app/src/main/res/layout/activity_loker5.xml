@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davidbezalellaoli.mwa14.view.activity.loker5">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Lowongan kerja"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView29"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Persyaratan"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView30"
+        android:layout_below="@+id/textView30"
+        android:layout_marginTop="10dp"
+        android:text="- Tamatan min. SMA/SMK/S1/Sederajat"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_below="@+id/textView31"
+        android:layout_marginTop="10dp"
+        android:text="- Pria/Wanita maks. 35 tahun"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView30"
+        android:layout_below="@+id/textView32"
+        android:layout_marginTop="10dp"
+        android:text="- Memiliki kemampuan di bidang terkait"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:text="APPLY"
+        android:layout_above="@+id/button7"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:onClick="onClickBack"
+        android:text="kembali"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/insert" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_below="@+id/textView33"
+        android:layout_marginTop="10dp"
+        android:text="- Jujur,baik, dan teliti"
+        android:textColor="@android:color/black" />
+</RelativeLayout>
